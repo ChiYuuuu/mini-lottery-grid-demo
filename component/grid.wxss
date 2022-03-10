@@ -1,0 +1,21 @@
+.item{
+    width: 200rpx;
+    height: 200rpx;
+    border: 1px solid;
+    margin: 10rpx;
+    line-height: 200rpx;
+    text-align: center;
+  }
+  .lottery-grid-content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 700rpx;
+    margin: auto;
+  }
+  page{
+    width: 100%;
+  }
+  .active{
+    background-color: #ff0000;
+  }

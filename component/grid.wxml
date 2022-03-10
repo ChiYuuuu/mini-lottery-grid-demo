@@ -1,0 +1,7 @@
+<!--component/grid.wxml-->
+<view class="lottery-grid-content">
+<block wx:for="{{prizeInfo}}" wx:key="id">
+        <view class="item" wx:if="{{index==4}}" bindtap="_start">开始</view>
+        <view class="item {{rollPrizeId==index?'active':''}}"> {{item.name}} </view>
+    </block>
+</view>

@@ -1,0 +1,1 @@
+<lottery-grid prizeInfo="{{prizeInfo}}" isApiError="{{false}}" totalCount="4" winPrizeId="{{winPrizeId}}"></lottery-grid>
